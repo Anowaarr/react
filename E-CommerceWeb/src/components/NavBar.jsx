@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
     <nav className="bg-slate-800 text-white shadow-lg">
       
+      
     </nav>
   );
 };
