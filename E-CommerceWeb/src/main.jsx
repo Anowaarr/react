@@ -1,9 +1,27 @@
+
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import './index.css'
+import React from 'react'
+import Home from './Pages/Home'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Navbar />
-  </StrictMode>,
-)
+const main = () => {
+  return (
+    <>
+      <Home />
+    </>
+  )
+}
+
+export default main
+
+
+const main = () => {
+  return (
+    <div>
+      <Home />
+    </div>
+  )
+}
+
+export default main
