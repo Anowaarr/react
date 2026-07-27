@@ -7,18 +7,6 @@ import Home from './Pages/Home'
 
 const main = () => {
   return (
-    <>
-      <Home />
-    </>
-  )
-}
-
-
-export default main
-
-
-const main = () => {
-  return (
     <div>
       <Home />
     </div>
